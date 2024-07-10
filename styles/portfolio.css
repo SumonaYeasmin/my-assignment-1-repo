@@ -247,3 +247,26 @@ margin: 0 auto;
     font-weight: 600;
     font-size: 20px;
 }
+/* footer section */
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    margin: 0 auto;
+    padding: 32px 0;
+}
+.footer-content a{
+    margin-left: 24px;
+}
+#footer-section{
+    margin-top: 80px;
+   
+    background: rgba(13, 19, 33, 0.03);
+
+}
+.footer-content h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+}
