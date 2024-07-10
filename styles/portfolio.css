@@ -1,21 +1,19 @@
 
 .hero-area{
-    background-image: url(/assets/hero-bg.png);
+    background-image: url(../assets/hero-bg.png);
     margin-bottom: 74px;
+    background-position: bottom center;
+    background-size: cover;
 }
 .open-sans-normal {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 .hero-container{
     text-align: center;
     width: 998px;
     margin: 0 auto;
-}
-.body{
-    font-family: Azeret Mono;        
 }
 .hero-title{
     color: rgb(13, 19, 33);
@@ -32,6 +30,8 @@
     font-weight: 400;   
     text-align: center;
     opacity: 0.7;  
+    margin-bottom: 50px;
+    line-height: 26px;
 }
 .btn{
     border-radius: 8px;
@@ -40,13 +40,15 @@
     font-size: 20px;
     color: rgb(255, 255, 255);
     padding: 21px 24px 21px 24px;
-    text-align: center;     
+    text-align: center;
+    text-decoration: none;
 }
 .hero-container{
     padding: 26px 221px 44px 221px;   
 }
-/* web development section */
 
+
+/* web development section */
 .web-development-section{
 width: 1140px;
 margin: 0 auto; 
@@ -64,29 +66,34 @@ box-sizing: border-box;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);     
 }
 .content{
-    width:477px ;
+    width: 477px;
 }
 .content img{
-    width:260px;
+    width: 260px;
 }
 .content-title{
     font-weight: 700;
     font-size: 24px;
     color: #0D1321B3;
+    line-height: 36px;
 }
 .content-subtitle{
     font-weight: 400;
     font-size: 16px;
     opacity: 0.7;
+    margin-bottom: 32px;
+    line-height: 26px;
 }
 .content .button{
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
     padding: 12px 20px;
-    margin: 32px 0;
+    /* margin: 32px 0; */
     font-weight: 600;
     font-size: 20px; 
+    text-decoration: none;
+    color: #0D1321;
 }
 .margin-left{
     margin-left: 48.8px;
@@ -121,13 +128,16 @@ box-sizing: border-box;
     font-size: 32px;
     color: rgb(13, 19, 33);
     text-align: center;
+    
 }
 .description{
     font-weight: 400;
     font-size: 16px;
     opacity: 0.7;
     color: rgb(13, 19, 33);
-   text-align: center;
+    text-align: center;
+    padding: 0 144px;
+    line-height: 26px;
 }
 /* My current target  */
 
@@ -166,6 +176,7 @@ box-sizing: border-box;
     font-weight: 400;
     font-size: 16px;
     color: rgb(13, 19, 33);
+    line-height: 26px;
 }
 .skills-container .learn-more{
     font-size: 16px;
@@ -175,11 +186,11 @@ box-sizing: border-box;
 /* support section */
 
 .support-section{
-    background-image: url(/assets/handshake.jpg);
+    background-image: url(../assets/handshake.jpg);
     width: 1140px;
     height: 314px;
     margin: 0 auto;
-    margin: 50px auto; 
+    margin: 120px auto 50px; 
     background-position: center;
     padding: 64px 48px;
     text-align: center;  
