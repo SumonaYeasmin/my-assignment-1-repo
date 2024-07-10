@@ -1,5 +1,6 @@
 .hero-area{
     background-image: url(/assets/hero-bg.png);
+    margin-bottom: 74px;
 }
 
 
@@ -51,36 +52,65 @@
 .hero-container{
     padding: 26px 221px 44px 221px;   
 }
+/* web development section */
+
 .web-development-section{
 
 width: 1140px;
-margin: 0 auto; background-color: aquamarine;
+margin: 0 auto; 
+border-radius:16px ;
+background:#0D132105 ;
+padding: 80px 97px;
+box-sizing: border-box;
+
 }
 .development-container{
     display: flex;
-    width: 946px; 
-    background-color: aqua; 
-    margin: 0 auto;
+    margin: 32px 0;
     padding: 48px 48px;
     justify-content: space-between;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
      
 }
-.development-container2{
-    display: flex;
-    width: 946px; 
-    background-color: aqua; 
-    margin: 0 auto;
-    padding: 48px 48px; 
-    justify-content: start
+.content{
+    width:477px ;
+}
+.content img{
+    width:260px;
+}
+.content-title{
+    font-weight: 700;
+    font-size: 24px;
+    color: #0D1321B3;
+}
+.content-subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.7;
+}
+.content .button{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px;
+    margin: 32px 0;
+    font-weight: 600;
+    font-size: 20px;
+ 
+}
+.margin-left{
+    margin-left: 48.8px;
+}
+.left-side{
+    justify-content: left;
 }
 
 
 
 
-.image{
-    width: 259.56px;
-    margin-left: 99px;
-}
+
+
 /* My Instruction Section */
 
 .vedio{
@@ -170,4 +200,50 @@ margin: 0 auto;
     font-size: 16px;
     font-weight: 700;
     color:#0D1321
+}
+/* support section */
+
+.support-section{
+    background-image: url(/assets/handshake.jpg);
+    width: 1140px;
+    height: 314px;
+    margin: 0 auto;
+    margin: 50px auto; 
+    background-position: center;
+    padding: 64px 48px;
+    text-align: center;  
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+}
+.support-title{
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.desc{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.message{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+    width: 548px;
+    height: 57px;
+    padding: 19px 20px;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+.submit-btn{
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 20px;
 }
