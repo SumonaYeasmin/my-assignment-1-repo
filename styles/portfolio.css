@@ -1,17 +1,14 @@
+
 .hero-area{
     background-image: url(/assets/hero-bg.png);
     margin-bottom: 74px;
 }
-
-
 .open-sans-normal {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
 }
-
-
 .hero-container{
     text-align: center;
     width: 998px;
@@ -28,26 +25,22 @@
     line-height: 68px;
     letter-spacing: 0%;
     text-align: center;
-
 }
 .hero-description{
     color: rgb(13, 19, 33);
-    
     font-size: 16px;
     font-weight: 400;   
     text-align: center;
-    opacity: 0.7;
-
+    opacity: 0.7;  
 }
 .btn{
     border-radius: 8px;
-
     background: rgb(13, 19, 33);
     font-weight: 600;
     font-size: 20px;
     color: rgb(255, 255, 255);
     padding: 21px 24px 21px 24px;
-    text-align: center;   
+    text-align: center;     
 }
 .hero-container{
     padding: 26px 221px 44px 221px;   
@@ -55,14 +48,12 @@
 /* web development section */
 
 .web-development-section{
-
 width: 1140px;
 margin: 0 auto; 
 border-radius:16px ;
 background:#0D132105 ;
 padding: 80px 97px;
 box-sizing: border-box;
-
 }
 .development-container{
     display: flex;
@@ -70,8 +61,7 @@ box-sizing: border-box;
     padding: 48px 48px;
     justify-content: space-between;
     border-radius: 16px;
-    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-     
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);     
 }
 .content{
     width:477px ;
@@ -96,8 +86,7 @@ box-sizing: border-box;
     padding: 12px 20px;
     margin: 32px 0;
     font-weight: 600;
-    font-size: 20px;
- 
+    font-size: 20px; 
 }
 .margin-left{
     margin-left: 48.8px;
@@ -105,25 +94,15 @@ box-sizing: border-box;
 .left-side{
     justify-content: left;
 }
-
-
-
-
-
-
 /* My Instruction Section */
 
 .vedio{
     text-align: center;
     margin-top: 48px;
     box-sizing: border-box;
-border: 1px solid rgba(13, 19, 33, 0.2);
-border-radius: 16px;
-
-
-padding: 32px;
-
-
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
 }
 .vedio iframe{
     width: 1076px;
@@ -135,16 +114,13 @@ padding: 32px;
     margin: 0 auto;
 }
 
-
-
 /* shared style */
+
 .title{
     font-weight: 800;
     font-size: 32px;
     color: rgb(13, 19, 33);
-  
     text-align: center;
-
 }
 .description{
     font-weight: 400;
@@ -154,15 +130,11 @@ padding: 32px;
    text-align: center;
 }
 /* My current target  */
+
 .my-current-target{
-
-
-width: 1140px;
-height: 463px;
-margin: 0 auto;
-
-
-
+    width: 1140px;
+    height: 463px;
+    margin: 0 auto;
 }
 .my-current-target .skills-container{
   display: flex;
@@ -172,18 +144,17 @@ margin: 0 auto;
     padding: 40px;
     margin: 0 24px;
     border-radius: 16px;
-
-    background: rgba(255, 76, 30, 0.05);
+    background: rgba(255, 76, 30, 0.05);   
 }
 .color-1{
-    background-color: pink;
+    background-color: rgba(255, 76, 30, 0.05);
 }
 .color-2{
-    background-color: aqua;
+    background-color: rgba(0, 76, 232, 0.05);
 
 }
 .color-3{
-    background-color: aquamarine;
+    background-color:rgba(255, 223, 0, 0.05);
 }
 
 .language{
@@ -237,7 +208,6 @@ margin: 0 auto;
     padding: 19px 20px;
     font-weight: 400;
     font-size: 16px;
-
 }
 .submit-btn{
     width: 120px;
@@ -248,6 +218,7 @@ margin: 0 auto;
     font-size: 20px;
 }
 /* footer section */
+
 .footer-content{
     display: flex;
     justify-content: space-between;
@@ -261,9 +232,7 @@ margin: 0 auto;
 }
 #footer-section{
     margin-top: 80px;
-   
     background: rgba(13, 19, 33, 0.03);
-
 }
 .footer-content h2{
     font-size: 20px;
