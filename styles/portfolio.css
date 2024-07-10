@@ -1,6 +1,16 @@
 .hero-area{
     background-image: url(/assets/hero-bg.png);
 }
+
+
+.open-sans-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
 .hero-container{
     text-align: center;
     width: 998px;
@@ -63,12 +73,7 @@ margin: 0 auto; background-color: aquamarine;
     padding: 48px 48px; 
     justify-content: start
 }
-.title{
-    text-align: center;
-}
-.description{
-    text-align: center;  
-}
+
 
 
 
@@ -95,17 +100,74 @@ padding: 32px;
     height: 550px;
     border-radius: 16px;
 }
-.my-instruction-section .title{
-    font-size:32px ;
-    font-weight:800 ;
-    color: rgb(13, 19, 33);
+.my-instruction-section{
+    width: 1140px;
+    margin: 0 auto;
 }
-.my-instruction-section .description{
+
+
+
+/* shared style */
+.title{
+    font-weight: 800;
+    font-size: 32px;
+    color: rgb(13, 19, 33);
+  
+    text-align: center;
+
+}
+.description{
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+   text-align: center;
+}
+/* My current target  */
+.my-current-target{
+
+
+width: 1140px;
+height: 463px;
+margin: 0 auto;
+
+
+
+}
+.my-current-target .skills-container{
+  display: flex;
+}
+.skill-content{
+    width: 364px;
+    padding: 40px;
+    margin: 0 24px;
+    border-radius: 16px;
+
+    background: rgba(255, 76, 30, 0.05);
+}
+.color-1{
+    background-color: pink;
+}
+.color-2{
+    background-color: aqua;
+
+}
+.color-3{
+    background-color: aquamarine;
+}
+
+.language{
+    font-weight: 800;
+    font-size: 24px;
+    color:rgb(13, 19, 33);
+}
+.language-description{
     font-weight: 400;
     font-size: 16px;
     color: rgb(13, 19, 33);
 }
-.my-instruction-section{
-    width: 1140px;
-    margin: 88px auto 0;
+.skills-container .learn-more{
+    font-size: 16px;
+    font-weight: 700;
+    color:#0D1321
 }
